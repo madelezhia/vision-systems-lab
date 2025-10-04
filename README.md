@@ -4,14 +4,14 @@
 
 A Senior R&D Engineer with over 10 years of experience in image analysis, I specialize in bridging classical, battle-tested techniques with state-of-the-art Deep Learning architectures. I have been dedicated to solving complex real-world problems in demanding sectors like healthcare and industrial inspection.
 
-This repository documents my recent deep dive into the engineering of modern AI systems.
+This repository showcases approaches I take when engineering modern AI systems.
 
 ---
 
 
 Each section explores a core area of modern computer vision, moving from foundational pipelines to state-of-the-art applications.
 
-## Act I: The Foundation - End-to-End Vision Pipelines
+## Act I: Foundations - End-to-End Vision Pipelines
 
 This section covers some of the essential steps for creating and evaluating vision systems.
 
@@ -24,7 +24,7 @@ This section covers some of the essential steps for creating and evaluating visi
     *   **Core Concepts:** Model Interpretability, Explainable AI (XAI), Debugging, Validation.
 ---
 
-## Act II: The Innovation - Prototyping with State-of-the-Art Models
+## Act II: Innovations - Prototyping with State-of-the-Art Models
 
 This act explores how cutting-edge research can be translated into functional prototypes, enabling new and flexible AI capabilities.
 
@@ -37,7 +37,7 @@ This act explores how cutting-edge research can be translated into functional pr
     *   **Core Concepts:** Feature Extraction, Semantic Search, Multimodal (Text-Image) AI, Zero-Shot Learning.
 ---
 
-## Act III: The Optimization - Engineering for Production & Scale
+## Act III: Optimization - Engineering for Production & Scale
 
 This section focuses on the engineering challenges of deploying large models, addressing real-world constraints of cost, memory, and agility.
 
