@@ -18,6 +18,7 @@ This section covers some of the essential steps for creating and evaluating visi
 *   **Large-Scale Defect Detection Pipeline**
     *   A complete pipeline to classify concrete cracks on a dataset of 40,000 images. This project methodically compares a CNN trained from scratch against a Transfer Learning approach, demonstrating the process of model selection and large-scale data handling.
     *   **Core Concepts:** Large-Scale Data Engineering, Transfer Learning, Rigorous Model Evaluation.
+   [tlearning_resnet18_PyTorch](https://github.com/madelezhia/vision-systems-lab/blob/main/I-Foundations/tlearning_resnet18_PyTorch.ipynb)
 
 *   **Model Interpretability with Class Activation Mapping**
     *   An implementation of Grad-CAM, a key technique to visualize the regions an image classification model focuses on to make its predictions. This is crucial for debugging models and building trust in their outputs.
@@ -48,16 +49,18 @@ This section focuses on the engineering challenges of deploying large models, ad
 *   **Deploying an AI Model via a Flask REST API**
     *   A practical example of packaging a trained model into a web service using Flask, creating a REST API endpoint that returns a prediction from an input.
     *   **Core Concepts:** Software Engineering for ML, Model Deployment, Bridging R&D with Production.
+   [image-classifier-app](https://github.com/madelezhia/image-classifier-app)
 
 ---
 
-## Act IV: From Perception to Action - Building Autonomous Systems
+## Act IV: Action - Building Autonomous Systems
 
 This final act explores the next frontier: building systems that not only perceive the world but can also reason and act upon that perception.
 
 *   **Building a Knowledge-Based Reasoning System with RAG**
     *   Development of a system using the Retrieval-Augmented Generation (RAG) paradigm. This combines a retriever with a Large Language Model to answer questions based on a private knowledge base, demonstrating how to build AI that can reason with specific information.
     *   **Core Concepts:** Complex AI System Design, Knowledge Retrieval, Reasoning.
+   [qa-bot](https://github.com/madelezhia/qa-bot)
 
 *   **Combining Vision and Language for Automated Reporting**
     *   A project that first classifies visual defects on an aircraft and then uses a language model to generate a descriptive text report of the findings.
