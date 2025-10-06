@@ -18,11 +18,13 @@ This section covers some of the essential steps for creating and evaluating visi
 *   **Large-Scale Defect Detection Pipeline**
     *   A complete pipeline to classify concrete cracks on a dataset of 40,000 images. This project methodically compares a CNN trained from scratch against a Transfer Learning approach, demonstrating the process of model selection and large-scale data handling.
     *   **Core Concepts:** Large-Scale Data Engineering, Transfer Learning, Rigorous Model Evaluation.
-   [tlearning_resnet18_PyTorch](https://github.com/madelezhia/vision-systems-lab/blob/main/I-Foundations/tlearning_resnet18_PyTorch.ipynb)
+   [tlearning_resnet18_PyTorch.ipynb](https://github.com/madelezhia/vision-systems-lab/blob/main/I-Foundations/tlearning_resnet18_PyTorch.ipynb)
 
 *   **Model Interpretability with Class Activation Mapping**
     *   An implementation of Grad-CAM, a key technique to visualize the regions an image classification model focuses on to make its predictions. This is crucial for debugging models and building trust in their outputs.
     *   **Core Concepts:** Model Interpretability, Explainable AI (XAI), Debugging, Validation.
+   [CAM.ipynb](https://github.com/madelezhia/vision-systems-lab/blob/main/I-Foundations/CAM.ipynb)
+
 ---
 
 ## Act II: Innovations - Prototyping with State-of-the-Art Models
@@ -32,10 +34,12 @@ This act explores how cutting-edge research can be translated into functional pr
 *   **Open-Vocabulary Object Detection with Grounding DINO**
     *   A proof-of-concept system that detects objects in images based on natural language descriptions (e.g., "a dog on a skateboard"). This zero-shot capability eliminates the need for task-specific training data.
     *   **Core Concepts:** Open-Vocabulary Detection, Rapid Prototyping from Research Papers, State-of-the-Art Model Implementation.
+    [OpenVocab_OD_GroundingDINO.ipynb](https://github.com/madelezhia/vision-systems-lab/blob/main/II-SoTA/OpenVocab_OD_GroundingDINO.ipynb)
 
 *   **Multimodal AI for Similarity Search & Zero-Shot Classification**
     *   This project leverages deep feature embeddings for semantic similarity search and clustering, a core technique for Re-Identification. It also uses the multimodal model **CLIP** for zero-shot classification based on text prompts.
     *   **Core Concepts:** Feature Extraction, Semantic Search, Multimodal (Text-Image) AI, Zero-Shot Learning.
+    [CLIP_Classification.ipynb](https://github.com/madelezhia/vision-systems-lab/blob/main/II-SoTA/CLIP_Classification.ipynb)
 ---
 
 ## Act III: Optimization - Engineering for Production & Scale
@@ -45,6 +49,7 @@ This section focuses on the engineering challenges of deploying large models, ad
 *   **Efficient Fine-Tuning of Large Models with QLoRA**
     *   An implementation of a Parameter-Efficient Fine-Tuning (PEFT) strategy using QLoRA. This method achieves high performance while training less than 1% of a large model's parameters, drastically reducing computational costs.
     *   **Core Concepts:** Production-Oriented Optimization, PEFT. This universal technique is directly transferable from LLMs to large vision models.
+    [QLoRA_with_Hugging_Face.ipynb](https://github.com/madelezhia/vision-systems-lab/blob/main/III-Optimization/QLoRA_with_Hugging_Face.ipynb)
 
 *   **Deploying an AI Model via a Flask REST API**
     *   A practical example of packaging a trained model into a web service using Flask, creating a REST API endpoint that returns a prediction from an input.
@@ -65,3 +70,4 @@ This final act explores the next frontier: building systems that not only percei
 *   **Combining Vision and Language for Automated Reporting**
     *   A project that first classifies visual defects on an aircraft and then uses a language model to generate a descriptive text report of the findings.
     *   **Core Concepts:** Multimodal Pipelines, Perception-to-Language Generation, Automated Task Execution. This is a foundational step towards an agent that can perceive, understand, and report on its environment.
+    [Classification_and_Captioning.ipynb](https://github.com/madelezhia/vision-systems-lab/blob/main/IV-Action/Classification_and_Captioning.ipynb)
