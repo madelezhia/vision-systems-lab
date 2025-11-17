@@ -41,7 +41,7 @@ Input: PET + MR Nifti images
 
 Output: Quantitative results
 
-![Registration and quantification pipeline](Image/pipeline_registration.svg)
+![Registration and quantification pipeline](Images/pipeline_registration.svg)
 
 ### Key Technical Decisions
 
