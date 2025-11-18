@@ -1,4 +1,4 @@
-> Senior Computer Vision Engineer | 15+ years | Medical Imaging Specialist | Production ML Expert
+> Senior Computer Vision Engineer | 10+ years | Medical Imaging Specialist | Production ML Expert
 
 ## 👋 About This Portfolio
 

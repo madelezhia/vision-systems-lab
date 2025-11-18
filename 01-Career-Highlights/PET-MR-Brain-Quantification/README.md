@@ -41,7 +41,11 @@ Input: PET + MR Nifti images
 
 Output: Quantitative results
 
-![Registration and quantification pipeline](Images/pipeline_registration.svg)
+<img src="Images/pipeline_registration.svg" width="400" alt="Registration and quantification pipeline">
+
+<!--![Registration and quantification pipeline](Images/pipeline_registration.svg)
+-->
+
 
 ### Key Technical Decisions
 
@@ -64,7 +68,7 @@ Output: Quantitative results
 
 1. Registration strategies
 
-Linear registration is an iterative process that uses a 12-parameter affine transformation (3 translations, 3 rotations, 3 scalings, 3 shears) to align the source image globally with the MNI template. Optimization is done by maximizing the likelihood of the tissue segmentation model, comparing the source tissue maps (GM, WM, CSF) to the template tissue probability maps. The optimization is performed using a Gauss-Newton method with a multiresolution scheme: at each iteration, the affine parameters are updated to minimize the sum-of-squared differences between the segmented source tissues and the template priors
+Linear registration is an iterative process that uses a 12-parameter affine transformation (3 translations, 3 rotations, 3 scalings, 3 shears) to align the source image globally with the MNI template. Optimization is done by maximizing the likelihood of the tissue segmentation model, comparing the source tissue maps (GM, WM, CSF) to the template tissue probability maps. The optimization is performed using a Gauss-Newton method with a multiresolution scheme: at each iteration, the affine parameters are updated to minimize the sum-of-squared differences between the segmented source tissues and the template priors.
 
 Nonlinear registration is also an iterative, parametric process. The deformation field is represented using cosine basis functions. At each iteration, these coefficients are updated using a regularized Gauss-Newton optimization. The resulting deformation is a smooth, voxelwise field that precisely aligns local anatomical structures with the template MNI space.
 
@@ -135,7 +139,7 @@ __External validation:__
 
 - Huet P., Cavedo E., Longo dos Santos C., Schwarz A.J.
 An automated pipeline for Centiloid quantification of amyloid load using multiple PET tracers.
-AD/PD 2022 International Conference, Barcelona, 15-20 Mar 2022. Poster P255 (e-poster 1995).
+AD/PD 2022 International Conference, Barcelona, 15-20 Mar 2022.
 
 __References:__
 - Klunk WE, Koeppe RA, Price JC, Benzinger TL, Devous MD Sr, Jagust WJ, Johnson KA, Mathis CA, Minhas D, Pontecorvo MJ, Rowe CC, Skovronsky DM, Mintun MA. The Centiloid Project: Standardizing quantitative amyloid plaque estimation by PET. Alzheimers Dement. 2015;11(1):1-15.e1-4. doi: 10.1016/j.jalz.2014.07.003. PMID: 25443857
