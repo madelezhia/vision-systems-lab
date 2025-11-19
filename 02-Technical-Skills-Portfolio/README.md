@@ -1,10 +1,38 @@
-# Senior R&D Engineer, Computer Vision & AI
+# Modern Computer Vision & AI Techniques
 
-## About Me
+## 📚 Context: Strategic Upskilling (2024-2025)
 
-A Senior R&D Engineer with over 10 years of experience in image analysis, I specialize in bridging classical, battle-tested techniques with state-of-the-art Deep Learning architectures. I have been dedicated to solving complex real-world problems in demanding sectors like healthcare and industrial inspection.
+Following a strategic sabbatical dedicated to AI advancement, these projects demonstrate proficiency in cutting-edge computer vision and deep learning techniques. Each implementation reflects modern best practices and state-of-the-art approaches.
 
-This repository showcases approaches I take when engineering modern AI systems.
+### 🎓 Professional Certifications Completed
+
+- **[IBM Generative AI Engineering Professional Certificate](https://www.coursera.org/professional-certificates/generative-ai-engineering)** (2025)  
+  *Focus: Transformers, LangChain, HuggingFace, Prompt Engineering*
+
+- **[OpenHPI Practical Computer Vision with PyTorch](https://open.hpi.de/courses/pytorch2024)** (2025)  
+  *Focus: Modern CV architectures, Vision Transformers, Production deployment*
+
+- **[IBM Deep Learning with PyTorch, Keras and TensorFlow Professional Certificate](https://www.coursera.org/professional-certificates/deep-learning-keras-pytorch-tensorflow)** (2025)  
+  *Focus: CNNs, RNNs, Transfer Learning, Model optimization*
+
+- **[Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning)** - DeepLearning.AI (2020)  
+  *Focus: Neural Networks, Hyperparameter tuning, Sequence models*
+
+### 🎯 Learning Objectives
+
+These projects were developed to:
+- Master modern vision-language models (CLIP, BLIP, GroundingDINO)
+- Understand production optimization techniques (QLoRA, PEFT, quantization)
+- Build end-to-end multimodal AI systems
+- Stay current with latest research and implementations
+
+---
+
+## 💡 About This Portfolio Section
+
+A Senior R&D Engineer with 15+ years of experience in image analysis, I specialize in bridging classical, battle-tested techniques with state-of-the-art Deep Learning architectures. This section showcases my continuous learning approach and ability to rapidly adopt and implement emerging AI technologies.
+
+For professional production projects, see [Career Highlights](../01-Career-Highlights/).
 
 ---
 
