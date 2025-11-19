@@ -76,9 +76,10 @@ Output: Quantitative (30+ key metrics) phenotype report + 3D visualization
 3. **Deep Learning Architecture**
 - inception_v3 model
 
-<img src="Images/img1.png" width="200" alt="3D reconstruction sample 1">
-<img src="Images/img2.png" width="200" alt="3D reconstruction sample 2">
-
+<p float="left">
+  <img src="Images/img1.png" width="200" alt="3D reconstruction sample 1">
+  <img src="Images/img2.png" width="200" alt="3D reconstruction sample 2">
+</p>
 ### Technology Stack
 
 **Core:** Halcon, C++, OpenCV
