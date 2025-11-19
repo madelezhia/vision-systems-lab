@@ -28,9 +28,9 @@
 ## 🔬 Technical Challenge
 
 **Core Problem:** Accurate corn phenotyping requires:
-1. Precise 3D reconstruction of complex organic shapes (irregular surfaces, occlusions)
-2. Individual grain segmentation and classification in densely packed arrangements
-3. Robust feature extraction despite visual variations (moisture, maturity stages, corn phenotypes)
+1. Precise 3D reconstruction of corn cob
+2. Individual grain segmentation for localisation in densely packed arrangements
+3. Robust classification of heathy grains despite visual variations (maturity stages, corn phenotypes)
 4. Scalable pipeline handling hundreds of samples per day
 
 
@@ -76,7 +76,8 @@ Output: Quantitative (30+ key metrics) phenotype report + 3D visualization
 3. **Deep Learning Architecture**
 - inception_v3 model
 
-<img src="Images/corn.png" width="400" alt="3D reconstruction">
+<img src="Images/img1.png" width="200" alt="3D reconstruction sample 1">
+<img src="Images/img2.png" width="200" alt="3D reconstruction sample 2">
 
 ### Technology Stack
 
