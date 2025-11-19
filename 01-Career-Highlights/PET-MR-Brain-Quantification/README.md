@@ -1,8 +1,7 @@
 # PET-MR Brain Quantification Pipeline
 
 > **Note:** This project was developed for a medical imaging startup under proprietary license. 
-> Full source code cannot be shared, but technical approach, architecture, and validation results 
-> are documented here.
+> Full source code cannot be shared, but technical approach, architecture, and validation results are documented here.
 
 ## 📋 Project Overview
 
@@ -48,25 +47,6 @@ Output: Quantitative results
 
 
 ### Key Technical Decisions
-
-
-<!--
-**1. Registration Strategy: B-spline Non-Linear**
-- **Alternative considered:** Demons algorithm
-- **Decision rationale:** Better balance between accuracy and computational cost
-- **Trade-off:** Increased processing time (+30 s) vs. 15% improvement in alignment accuracy
-
-**2. Atlas Choice: MNI 152 with Custom Parcellation**
-- **Alternative:** FreeSurfer-based segmentation
-- **Decision:** Pre-computed atlas → 10 x faster than subject-specific segmentation
-- **Trade-off:** Slight accuracy loss acceptable for clinical workflow speed
-
-**3. Normalization:** Reference region approach (cerebellar gray matter)
-- **Validated across:** 5 different PET tracers
-- **Robust to:** Scanner variations, reconstruction protocols
--->
-
-1. Registration strategies
 
 Linear registration is an iterative process that uses a 12-parameter affine transformation (3 translations, 3 rotations, 3 scalings, 3 shears) to align the source image globally with the MNI template. Optimization is done by maximizing the likelihood of the tissue segmentation model, comparing the source tissue maps (GM, WM, CSF) to the template tissue probability maps. The optimization is performed using a Gauss-Newton method with a multiresolution scheme: at each iteration, the affine parameters are updated to minimize the sum-of-squared differences between the segmented source tissues and the template priors.
 

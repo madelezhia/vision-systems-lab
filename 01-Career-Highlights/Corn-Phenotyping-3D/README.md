@@ -76,7 +76,7 @@ Output: Quantitative (30+ key metrics) phenotype report + 3D visualization
 3. **Deep Learning Architecture**
 - inception_v3 model
 
-
+<img src="Images/corn.png" width="400" alt="3D reconstruction">
 
 ### Technology Stack
 
@@ -100,16 +100,16 @@ Output: Quantitative (30+ key metrics) phenotype report + 3D visualization
 
 ```
 Classification Accuracy:
-├─ Overall grain classification: 98.2% (n=50,000 grains)
-├─ Helthy grains: 99.1% precision, 98.8% recall
-└─ Defective grains: 96.8% precision, 97.2% recall
+├─ Overall grain classification: 98.6% (n=10,154 grains)
+├─ Healthy grains: 98.5% precision, 97.2% recall
+└─ Defective grains: 98.6% precision, 97.2% recall
 
 3D Reconstruction Quality:
-├─ Mean depth error: 0.8mm (±0.3mm std)
-└─ Processing time: 2.8 ± 0.5 min per sample
+├─ Mean volume error: 8%
+└─ Processing time: 0.8 min per sample
 
 Comparison vs. Manual Analysis:
-├─ Speed improvement: 10x faster (3 min vs 30 min)
+├─ Speed improvement: 22x faster (0.9 min vs 20 min)
 ├─ Inter-rater reliability
 └─ Repeatability
 ```

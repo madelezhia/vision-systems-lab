@@ -24,36 +24,41 @@ While full codebases remain proprietary, I provide comprehensive technical docum
 - **Role:** R&D Engineer | Solo technical lead
 - **Challenge:** Enable automated multi-modal PET/MR uptake quantification for clinical use
 - **Innovation:** Designed fully automated pipeline featuring NL spatial registration
-- **Validation:** Achieved R²>0.99 correlation across multiple and tracers
+- **Achievement:** Achieved R²>0.99 correlation across multiple and tracers
 - **Impact:** Expanded company product line from MR-only to PET/MR capabilities
 - **Tech Stack:** Python, Non-linear registration
 
-- [📁 View Documentation](./01-Career-Highlights/PET-MR-Brain-Quantification/)
+[📁 View Documentation](./01-Career-Highlights/PET-MR-Brain-Quantification/)
 
 **3D Dental CBCT Segmentation** | 2019-2020 | Large Medical Device Company
 - **Role:** R&D Engineer | Algorithm development & integration lead
 - **Challenge:** Improve 3D segmentation accuracy for dental CBCT scans
-- **Innovation:** Prototyped novel DL architecture after comprehensive SOTA review
+- **Innovation:** Prototyped DL architecture after comprehensive SOTA review
 - **Achievement:** 26% DICE coefficient improvement over baseline
 - **Impact:** Integrated into flagship software, enabled new automated analysis feature
 - **Tech Stack:** Keras, 3D CNNs, CBCT imaging
 
 ### 🌾 Agricultural Biotechnology
 
-**Corn Cob 3D Phenotyping System** | 2015-2019 | Optical Diagnostics Company
+**Corn Cob 3D Phenotyping System** | 2017-2018 | Optical Diagnostics Company
 - **Role:** Project Lead | Pioneered company's first DL initiative
 - **Challenge:** Automate agricultural research with high-accuracy 3D analysis
 - **Innovation:** End-to-end pipeline: stereo reconstruction + CNN classifier
 - **Achievement:** 98% grain classification accuracy in production
 - **Impact:** Significantly accelerated breeding program research cycles
+- **Tech Stack:** Halcon, C++, OpenCV, PCL
 
-- [📁 View Documentation](./01-Career-Highlights/Corn-Phenotyping-3D/)
+[📁 View Documentation](./01-Career-Highlights/Corn-Phenotyping-3D/)
 
 ### 🍷 Industrial Quality Control
 
-**Luxury Goods Mold Detection** | 2015-2019
+**Luxury Goods Mold Detection** | 2018
+- **Role:** Project Lead
+- **Challenge:** Automate detection on grapes
+- **Innovation:** CNN object detection
 - **Achievement:** 95% AP@0.5 in production environment
 - **Impact:** Real-time quality control for premium agricultural products
+- **Tech Stack:** Halcon, C++, OpenCV, PCL
 
 ---
 
@@ -64,18 +69,18 @@ these projects to demonstrate proficiency in cutting-edge computer vision and AI
 
 These are **complete, executable implementations** showcasing:
 - Modern deep learning architectures (Transformers, Vision Transformers)
-- State-of-the-art models (CLIP, GroundingDINO, BLIP)
+- State-of-the-art models (CLIP, GroundingDINO)
 - Production optimization techniques (QLoRA, quantization, PEFT)
 - Multimodal AI systems
 
 ### Featured Projects
 
-- ** Model Interpretability** - Grad-CAM implementation for CNN explainability  
-- ** Transfer Learning** - Large-scale classification (40k images) comparing training strategies  
-- ** Zero-Shot Classification** - CLIP-based multimodal classification without fine-tuning  
-- ** Open-Vocabulary Detection** - GroundingDINO for text-based object detection  
-- ** Efficient Fine-Tuning** - QLoRA with <1% trainable parameters achieving 84% accuracy  
-- ** Vision-Language Pipeline** - Aircraft defect classification with automated report generation  
+- **Model Interpretability** - Grad-CAM implementation for CNN explainability  
+- **Transfer Learning** - Large-scale classification (40k images) comparing training strategies  
+- **Zero-Shot Classification** - CLIP-based multimodal classification without fine-tuning  
+- **Open-Vocabulary Detection** - GroundingDINO for text-based object detection  
+- **Efficient Fine-Tuning** - QLoRA with <1% trainable parameters achieving 84% accuracy  
+- **Vision-Language Pipeline** - Aircraft defect classification with automated report generation  
 
 [📁 View All Implementations](./02-Technical-Skills-Portfolio/)
 
