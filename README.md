@@ -1,11 +1,12 @@
-> Senior Computer Vision Engineer | 10+ years | Medical Imaging Specialist | Production ML Expert
+> Senior Computer Vision - AI Engineer | 10+ years
 
 ## 👋 About This Portfolio
 
-This portfolio showcases two complementary aspects of my expertise:
+This portfolio showcases three complementary aspects of my expertise:
 
 1. **Career Highlights** - Representative examples of professional projects with proven production impact
 2. **Technical Skills Showcase** - Recent implementations demonstrating proficiency in modern CV/AI techniques
+3. **Publications and Research** - Academic contributions and research work throughout my career
 
 **Note:** Due to confidentiality agreements, code from commercial projects is presented through architectural 
 descriptions, technical documentation, and validation results rather than complete implementations.
@@ -14,11 +15,8 @@ descriptions, technical documentation, and validation results rather than comple
 
 ## 🏆 Career Highlights (Professional Experience)
 
-### Selected Projects with Measurable Business Impact
-
 These projects represent my work across healthcare, biotechnology, and industrial sectors. 
-While full codebases remain proprietary, I provide comprehensive technical documentation, 
-architectural insights, and validated results.
+While full codebases remain proprietary, I provide comprehensive technical documentation, architectural insights, and validated results.
 
 #### 🏥 Medical Imaging
 
@@ -26,9 +24,10 @@ architectural insights, and validated results.
 - **Role:** R&D Engineer | Solo technical lead
 - **Challenge:** Enable automated multi-modal PET/MR uptake quantification for clinical use
 - **Innovation:** Designed fully automated pipeline featuring NL spatial registration
-- **Validation:** Achieved R²>0.99 correlation across multiple regions and tracers
+- **Validation:** Achieved R²>0.99 correlation across multiple and tracers
 - **Impact:** Expanded company product line from MR-only to PET/MR capabilities
-- **Tech Stack:** Python, Non-linear registration, DICOM standards
+- **Tech Stack:** Python, Non-linear registration
+
 - [📁 View Documentation](./01-Career-Highlights/PET-MR-Brain-Quantification/)
 
 **3D Dental CBCT Segmentation** | 2019-2020 | Large Medical Device Company
@@ -37,8 +36,7 @@ architectural insights, and validated results.
 - **Innovation:** Prototyped novel DL architecture after comprehensive SOTA review
 - **Achievement:** 26% DICE coefficient improvement over baseline
 - **Impact:** Integrated into flagship software, enabled new automated analysis feature
-- **Tech Stack:** PyTorch, 3D CNNs, CBCT imaging
-- [📁 View Documentation](./01-Career-Highlights/CBCT-3D-Segmentation/)
+- **Tech Stack:** Keras, 3D CNNs, CBCT imaging
 
 #### 🌾 Agricultural Biotechnology
 
@@ -48,7 +46,7 @@ architectural insights, and validated results.
 - **Innovation:** End-to-end pipeline: stereo reconstruction + CNN classifier
 - **Achievement:** 98% grain classification accuracy in production
 - **Impact:** Significantly accelerated breeding program research cycles
-- **Leadership:** Led team of 3, collaborated with agronomists, mentored junior engineer
+
 - [📁 View Documentation](./01-Career-Highlights/Corn-Phenotyping-3D/)
 
 #### 🍷 Industrial Quality Control
@@ -56,9 +54,6 @@ architectural insights, and validated results.
 **Luxury Goods Mold Detection** | 2015-2019
 - **Achievement:** 95% AP@0.5 in production environment
 - **Impact:** Real-time quality control for premium agricultural products
-- [Brief overview](./01-Career-Highlights/Industrial-QC.md)
-
-<!--[See full project list](./01-Career-Highlights/)-->
 
 ---
 
@@ -82,16 +77,32 @@ These are **complete, executable implementations** showcasing:
 **⚡ Efficient Fine-Tuning** - QLoRA with <1% trainable parameters achieving 84% accuracy  
 **🤖 Vision-Language Pipeline** - Aircraft defect classification with automated report generation  
 
-<!--[📁 View All Implementations](./02-Technical-Skills-Portfolio/)-->
+[📁 View All Implementations](./02-Technical-Skills-Portfolio/)
 
 ---
 
 ## 📚 Publications & Research
 
-- **Highly Cited Publication** (118+ citations, JNM 2015): Quantification bias in 3D PET imaging
-- Multiple publications in leading journals (JNM, EJNMMI, ADPD)
-- PhD Thesis: Modeling and Quantification of Vascular Lesions in PET
-- [Full publication list](./03-Publications-Research/)
+**Academic Foundation:** PhD in Physics (2015) focused on medical imaging and quantitative PET analysis
+
+### Highlighted Work
+
+**Highly Cited Publication** (118+ citations, JNM 2015)  
+Demonstrated significant bias in common 3D quantification methods in PET imaging and established new best practices adopted widely in the field. This work influenced clinical practice guidelines and is referenced in multiple international standards.
+
+**PhD Thesis:** Modeling, Simulation and Quantification of Vascular Lesions in PET (2015)
+- Developed high-fidelity simulation pipeline for complex 3D scenes
+- Improved tomographic reconstruction algorithms (nearly 10% error reduction)
+- Foundation for subsequent research in quantitative PET imaging
+
+### Additional Publications
+- Multiple peer-reviewed publications in leading journals (JNM, EJNMMI)
+- Conference presentations (AD/PD 2022 International Conference, Barcelona)
+- Ongoing collaborations with clinical and research institutions
+
+[📁 View Complete Publications & Research Profile](./03-Publications-Research/)
+
+*Research Areas:* Medical Imaging | PET/MR Imaging | Computer Vision | Deep Learning | Quantitative Biomarkers
 
 ---
 
@@ -109,14 +120,13 @@ These are **complete, executable implementations** showcasing:
 
 ## 🛠️ Technical Expertise
 
-**Programming:** Python (expert), C++, R, Bash  
+**Programming:** Python, C++, R, Bash  
 **ML/DL Frameworks:** PyTorch, Keras, TensorFlow, Scikit-learn, Hugging Face  
 **Computer Vision:** OpenCV, ITK/VTK, Halcon  
 **Specialized Domains:** Medical imaging, 3D reconstruction, stereo vision, calibration  
 **MLOps & Tools:** Docker, Git, Flask, Streamlit, Google Colab  
 
-**CV Tasks:** Classification, segmentation, object detection, 3D reconstruction, 
-motion estimation, tracking, filtering
+**CV Tasks:** Classification, segmentation, object detection, 3D reconstruction, motion estimation, tracking, filtering
 
 ---
 
