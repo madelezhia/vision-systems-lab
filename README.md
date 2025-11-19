@@ -70,12 +70,12 @@ These are **complete, executable implementations** showcasing:
 
 ### Featured Projects
 
-**🔍 Model Interpretability** - Grad-CAM implementation for CNN explainability  
-**🔄 Transfer Learning** - Large-scale classification (40k images) comparing training strategies  
-**🎯 Zero-Shot Classification** - CLIP-based multimodal classification without fine-tuning  
-**📦 Open-Vocabulary Detection** - GroundingDINO for text-based object detection  
-**⚡ Efficient Fine-Tuning** - QLoRA with <1% trainable parameters achieving 84% accuracy  
-**🤖 Vision-Language Pipeline** - Aircraft defect classification with automated report generation  
+- ** Model Interpretability** - Grad-CAM implementation for CNN explainability  
+- ** Transfer Learning** - Large-scale classification (40k images) comparing training strategies  
+- ** Zero-Shot Classification** - CLIP-based multimodal classification without fine-tuning  
+- ** Open-Vocabulary Detection** - GroundingDINO for text-based object detection  
+- ** Efficient Fine-Tuning** - QLoRA with <1% trainable parameters achieving 84% accuracy  
+- ** Vision-Language Pipeline** - Aircraft defect classification with automated report generation  
 
 [📁 View All Implementations](./02-Technical-Skills-Portfolio/)
 
@@ -88,7 +88,7 @@ These are **complete, executable implementations** showcasing:
 ### Highlighted Work
 
 **Highly Cited Publication** (118+ citations, JNM 2015)  
-Demonstrated significant bias in common 3D quantification methods in PET imaging and established new best practices adopted widely in the field. This work influenced clinical practice guidelines and is referenced in multiple international standards.
+Demonstrated significant bias in common 3D quantification methods in PET imaging and established new best practices. This work influenced clinical practice guidelines.
 
 **PhD Thesis:** Modeling, Simulation and Quantification of Vascular Lesions in PET (2015)
 - Developed high-fidelity simulation pipeline for complex 3D scenes
@@ -98,7 +98,6 @@ Demonstrated significant bias in common 3D quantification methods in PET imaging
 ### Additional Publications
 - Multiple peer-reviewed publications in leading journals (JNM, EJNMMI)
 - Conference presentations (AD/PD 2022 International Conference, Barcelona)
-- Ongoing collaborations with clinical and research institutions
 
 [📁 View Complete Publications & Research Profile](./03-Publications-Research/)
 
@@ -133,6 +132,6 @@ Demonstrated significant bias in common 3D quantification methods in PET imaging
 ## 💼 Industry Experience
 
 **Sectors:** Healthcare | Medical Devices | Biotechnology | Manufacturing | Luxury Goods  
-**Cross-functional Collaboration:** Clinicians, Domain Experts, Product Teams, C-Suite
+**Cross-functional Collaboration:** Clinicians, Domain Experts, Product Teams
 
 ---
