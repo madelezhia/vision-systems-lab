@@ -18,7 +18,7 @@ descriptions, technical documentation, and validation results rather than comple
 These projects represent my work across healthcare, biotechnology, and industrial sectors. 
 While full codebases remain proprietary, I provide comprehensive technical documentation, architectural insights, and validated results.
 
-#### 🏥 Medical Imaging
+### 🏥 Medical Imaging
 
 **PET-MR Brain Quantification Pipeline** | 2020-2022 | Medical Imaging Startup
 - **Role:** R&D Engineer | Solo technical lead
@@ -38,7 +38,7 @@ While full codebases remain proprietary, I provide comprehensive technical docum
 - **Impact:** Integrated into flagship software, enabled new automated analysis feature
 - **Tech Stack:** Keras, 3D CNNs, CBCT imaging
 
-#### 🌾 Agricultural Biotechnology
+### 🌾 Agricultural Biotechnology
 
 **Corn Cob 3D Phenotyping System** | 2015-2019 | Optical Diagnostics Company
 - **Role:** Project Lead | Pioneered company's first DL initiative
@@ -49,7 +49,7 @@ While full codebases remain proprietary, I provide comprehensive technical docum
 
 - [📁 View Documentation](./01-Career-Highlights/Corn-Phenotyping-3D/)
 
-#### 🍷 Industrial Quality Control
+### 🍷 Industrial Quality Control
 
 **Luxury Goods Mold Detection** | 2015-2019
 - **Achievement:** 95% AP@0.5 in production environment
